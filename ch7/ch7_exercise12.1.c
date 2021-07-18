@@ -7,7 +7,7 @@
 void fillMatrix (int nRows, int nCols, int matrix[nRows][nCols]);
 void printMatrix (int nRows, int nCols, int matrix[nRows][nCols]);
 void transpose (int nRows, int nCols, int transpose_array[nRows][nCols], int origin_array[nRows][nCols]);
-void transpose2(int nRows, int nCols, int *transpose_array, int *origin_array);
+void transpose2(int nRows, int nCols, int *transpose_array, int *origin_array); //Nock's way of doing function
 
 
 int main (void) {
@@ -53,7 +53,7 @@ void transpose (int nRows, int nCols, int transpose_array[nRows][nCols], int ori
         }
     }
 }
-
+//Nocks function
 void transpose2(int nRows, int nCols, int *transpose_array, int *origin_array) {
     for ( int row = 0; row < nRows; row++ ) {
         for ( int column = 0; column < nCols; column++ ){
