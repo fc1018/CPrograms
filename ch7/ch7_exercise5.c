@@ -1,4 +1,4 @@
-// Modification of program 7.8
+// Modification of exercise 1.8
 // Function to calculate the absolute function of a number 
 
 

@@ -1,4 +1,4 @@
-// Calculating triangle numbers using functions- copied from exercise 4.5
+// Calculating triangle numbers using functions- copied from exercise 1.5
 
 #include <stdio.h>
 
