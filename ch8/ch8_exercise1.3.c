@@ -14,7 +14,7 @@ int main(void) {
     int numberOfDays(struct date d);
 
     printf("Enter today's date (dd mm yyyy): ");
-    scanf("%i,%i,%i", &today.day, &today.month, &today.year);
+    scanf("%i%i%i", &today.day, &today.month, &today.year);
 
     if (today.day != numberOfDays(today)) {
         tomorrow.day = today.day + 1;
@@ -34,8 +34,6 @@ int main(void) {
 
     printf("Tomorrow's date is %i/%i/%.2i.\n",
            tomorrow.day, tomorrow.month, tomorrow.year % 100);
-
-    printf ("Passed 3\n");
 
     return 0;
 }
@@ -71,8 +69,6 @@ bool isLeapYear(struct date d) {
     else {
         leapYearFlag = false;
     }
-
-    printf ("Passed 2 \n");
 
     return leapYearFlag;
 }
