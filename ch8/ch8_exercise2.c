@@ -9,17 +9,17 @@ struct date
     int year;
 }   date1, date2;
 
-
-int main (void) {
     int nCal (struct date date);
     int numberOfDaysBetween (struct date date1, struct date date2);
+
+int main (void) {
 
     int daysBetween;
 
     printf ("Enter your first date (YYYY/MM/DD): \n");
-    scanf ("%i/%i/%i", &date1.year, &date1.month, &date1.day);
+    scanf (" %i/%i/%i", &date1.year, &date1.month, &date1.day);
     printf ("Enter your second date (YYYY/MM/DD): \n");
-    scanf ("%i/%i/%i", &date2.year, &date2.month, &date2.day);
+    scanf (" %i/%i/%i", &date2.year, &date2.month, &date2.day);
 
     if ( date1.year < 1900 || date2.year < 1900 ) {
         printf ("Error: One or both dates earlier than 1900/01/01\n");
