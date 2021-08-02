@@ -1,1 +1,1 @@
-    printf ("%i\n", days);
+%.2d/%.2d/%d
